@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.wrapper{
+    background-color:white;
+    display:flex;
+ justify-content: center;
+ align-items:center;
+ display:grid;
+ height:100%;
+}
+.container{
+   border:1px solid black;
+   background-color:white;
+    width:550px;
+    height:550px;
+    display:grid;
+    grid-template-rows:80px 1fr;
+    grid-template-areas:
+    "first"
+    "second";
+}
+#box{
+    width:100%;
+    margin:8px 0 ;
+    padding: 12px 20px;
+    border:1px solid rgb(169, 168, 168);
+    border-radius:20px;
+    display:inline-block;
+}
+#submit{
+    background-color:rgb(144, 251, 144);
+    border-radius:5px;
+    width:200px;
+    height:30px;
+    margin-left:150px;
+    margin-top:20px;
+}
+#submit:hover{
+    background-color: #45a049;
+    cursor:pointer;
+}
+#row{
+    font-size: large;
+}
+.ask{
+    padding:20px;
+}
+#login{
+    font-size:35px;
+    height:100%;
+    width:100%;
+}
+h1{
+    text-align: center;
+    font-size:40px;
+    color:rgb(188, 132, 241);
+}
+#log{
+    margin-left:800px;
+}
+.hi{
+    width:70px;
+    height:40px;
+    margin-left:20px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.hi:hover{
+    background-color:rgb(3, 153, 3);
+}
+.yellow{
+    width:100%;
+    height:70px;
+}
+.white{
+    display:grid;
+    justify-content: center; 
+    align-items: center;
+ }
+ #guys{
+  grid-area:first;
+
+ }
+ #gyms{
+    grid-area:second;
+    display: grid;
+ }
+ p{
+    font-size: large;
+    margin-top:7px;
+ }
